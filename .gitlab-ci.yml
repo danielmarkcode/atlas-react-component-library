@@ -1,0 +1,10 @@
+image: node:latest
+
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  script:
+    - echo "//https://gitlab.com/api/v4/projects/38481008/packages/npm/:_authToken=nj7TeT1PMoo2gz53BxBc">.npmrc
+    - npm publish
