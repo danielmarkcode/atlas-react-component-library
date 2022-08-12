@@ -76,8 +76,8 @@ npm run rollup
 ## Configure Library .NPMRC
 
 ```
-# For example package with name `@cnx-grp/my-package` will use this URL for download
- @cnx-grp:registry=https://gitlab.com/api/v4/packages/npm/
+# For example package with name `@group/my-package` will use this URL for download
+ @group:registry=https://gitlab.com/api/v4/packages/npm/
 
 # Add the token for the scoped packages URL. This will allow you to download
 //gitlab.com/api/v4/packages/npm/:_authToken=7dLJwVc2aw9fKaxGPds8
@@ -115,7 +115,7 @@ Copy Paste the .npmrc into Project Root
 
 ```
 # For example package with name `@cnx-grp/my-package` will use this URL for download
- @cnx-grp:registry=https://gitlab.com/api/v4/packages/npm/
+ @group:registry=https://gitlab.com/api/v4/packages/npm/
 
 # Add the token for the scoped packages URL. This will allow you to download
 //gitlab.com/api/v4/packages/npm/:_authToken=7dLJwVc2aw9fKaxGPds8

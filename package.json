@@ -43,7 +43,7 @@
   ],
   "types": "dist/index.d.ts",
   "publishConfig": {
-    "@tradefree:registry": "https://git.pkglobal.com/api/v4/projects/1031/packages/npm/"
+    "@tradefree:registry": "https://domain.com/api/v4/projects/1031/packages/npm/"
   },
   "browserslist": {
     "production": [
